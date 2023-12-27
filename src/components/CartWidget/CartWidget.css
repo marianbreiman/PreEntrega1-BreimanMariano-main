@@ -1,0 +1,38 @@
+.cart-widget {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cart-icon {
+    width: 30px; /* Ajusta el tamaño del icono según tu preferencia */
+    height: 30px;
+    background-color: #1a1a1a; /* Fondo oscuro para el icono */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-right: 8px; /* Espaciado entre el icono y el número */
+    padding: 5px; /* Ajusta el relleno del icono según tu preferencia */
+    transition: background-color 0.3s; /* Agrega una transición para un cambio suave */
+  }
+  
+  .cart-icon:hover {
+    background-color: #ffcc00; /* Cambia el fondo a amarillo en hover */
+  }
+  
+  .cart-icon::before {
+    content: "\1F6D2"; /* Utiliza un emoji de carrito de compras (puedes cambiar esto) */
+    display: block;
+    font-size: 20px; /* Ajusta el tamaño del contenido del icono según tu preferencia */
+    color: #ffcc00; /* Color amarillo para el contenido del icono */
+  }
+  
+  .small-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    color: #ffcc00; /* Texto amarillo para el número */
+    border-radius: 50%; /* Forma circular para el fondo del número */
+    padding: 0.4rem 0.01rem; /* Ajusta el espaciado del número */
+    font-size: 1rem; /* Ajusta el tamaño del número según tu preferencia */
+  }

@@ -1,0 +1,21 @@
+/* NavBar.css */
+
+.geek-navbar {
+    background-color: #1a1a1a; /* Fondo oscuro */
+  }
+  
+  .geek-brand {
+    color: #ffcc00; /* Color amarillo para el texto del brand */
+  }
+  
+  .geek-nav {
+    margin-top: 5px; /* Ajuste de margen superior para la lista de navegación */
+  }
+  
+  .geek-nav .nav-item .nav-link {
+    color: #ffffff; /* Color blanco para los enlaces de navegación */
+  }
+  
+  .geek-nav .nav-item .nav-link:hover {
+    color: #ffcc00; /* Cambio de color al pasar el ratón sobre los enlaces de navegación */
+  }
